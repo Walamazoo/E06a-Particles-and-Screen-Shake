@@ -31,6 +31,7 @@ orbit_velocity_random = 0.0
 flag_disable_z = true
 spread = 180.0
 initial_velocity = 300.0
+angular_velocity = 1.0
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
 damping = 150.0
@@ -66,4 +67,5 @@ texture = ExtResource( 4 )
 
 [node name="Camera" type="Camera2D" parent="."]
 position = Vector2( 512, 304 )
+current = true
 script = ExtResource( 5 )
